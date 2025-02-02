@@ -1,3 +1,5 @@
+CREATE DATABASE escola;
+
 CREATE TABLE disciplinas (
     id_disciplina SERIAL PRIMARY KEY,
     nome_disciplina VARCHAR(50) NOT NULL,
