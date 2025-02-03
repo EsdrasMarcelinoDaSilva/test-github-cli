@@ -1,6 +1,5 @@
 create database Ecommerce
 
-
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name_product VARCHAR(100)
@@ -54,5 +53,5 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Executar a função
+
 SELECT * FROM generate_daily_report();
