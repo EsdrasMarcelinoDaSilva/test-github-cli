@@ -34,3 +34,6 @@ EXECUTE FUNCTION log_nova_reserva();
 
 INSERT INTO Reserva_Quarto (reserva_id, quarto_id, data_checkin, data_checkout, quantidade_diarias)
 VALUES (1, 101, '2025-03-01', '2025-03-05', 4);
+
+
+Reserva inserida para o quarto 4 de 2025-03-01 até 2025-03-05

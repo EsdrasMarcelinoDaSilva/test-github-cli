@@ -55,3 +55,4 @@ $$ LANGUAGE plpgsql;
 
 
 SELECT * FROM generate_daily_report();
+
