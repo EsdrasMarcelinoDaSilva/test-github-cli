@@ -1,5 +1,5 @@
 CREATE TABLE clientes (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY, --auto_increment
     nome VARCHAR(255) NOT NULL,
     data_cadastro DATE NOT NULL
 );
